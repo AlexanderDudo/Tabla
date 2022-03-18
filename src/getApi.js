@@ -4,7 +4,7 @@ const AsyncAwait = () => {
   const [producto, setProducto] = useState([])
 
   const fetchData = async () => {
-    const response = await fetch("http://scratchya.com.ar/react/datos.php")
+    const response = await fetch("https://scratchya.com.ar/react/datos.php")
     const data = await response.json()
     setProducto(data)
   }

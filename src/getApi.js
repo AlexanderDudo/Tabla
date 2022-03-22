@@ -15,7 +15,7 @@ const AsyncAwait = () => {
   
   return (
     <div>
-      <table class='tg'>
+      <table className='tg'>
           <thead>
               <tr>
               <td>Código</td>
